@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+main section {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  flex-grow: 1;
+  background-color: red;
+  background-size: cover;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+main section:hover {
+  flex-grow: 2;
+}
+main section:nth-child(1) {
+  background-image: url(https://in.pinterest.com/pin/29062360090789611/);
+}
+main section:nth-child(2) {
+  background-image: url(https://in.pinterest.com/pin/12596073953672007/);
+}
+main section:nth-child(3) {
+  background-image: url(onePercent.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(twentySIX.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(youVSyou.jpg);
+}/*# sourceMappingURL=style.css.map */
